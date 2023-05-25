@@ -1,5 +1,6 @@
 import "../css/NavBar.css";
 import { Link } from "react-router-dom";
+import menuIco from "../img/menuico.png";
 
 function NavBar() {
   return (
@@ -16,6 +17,7 @@ function NavBar() {
         <Link to="/About" className="navbar-link navbar-link-left-margin">
           About
         </Link>
+        <img src={menuIco} alt="" className="navbar-burger-menu" />
       </div>
     </div>
   );

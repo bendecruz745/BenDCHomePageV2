@@ -10,10 +10,16 @@
 
 .navbar-brand-container {
   margin-left: 100px;
+  transition: ease all 0.5s;
 }
 
 .navbar-brand-text {
   margin: 0;
+}
+
+.navbar-burger-menu {
+  padding: 4px;
+  display: none;
 }
 
 .navbar-link-container {
@@ -21,12 +27,12 @@
   margin-right: 100px;
   width: 20%;
   justify-content: end;
+  transition: ease all 0.5s;
 }
 
 .navbar-link,
 .navbar-link-brand {
   text-decoration: none;
-  margin-left: 100px;
 }
 
 .navbar-link {
@@ -35,7 +41,8 @@
   color: #9c6644;
   display: inline-block;
   position: relative;
-  transition: font-size 0.25s ease-out;
+  margin-left: 100px;
+  transition: ease all 0.5s;
 }
 
 .navbar-link:hover {
@@ -58,4 +65,28 @@
 .navbar-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand-container {
+    margin-left: 25px;
+  }
+
+  .navbar-link-container {
+    margin-right: 25px;
+  }
+
+  .navbar-link {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-link {
+    display: none;
+  }
+
+  .navbar-burger-menu {
+    display: block;
+  }
 }

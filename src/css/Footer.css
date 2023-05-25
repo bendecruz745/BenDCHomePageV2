@@ -12,4 +12,11 @@
   margin-left: 100px;
   display: flex;
   justify-content: space-between;
+  transition: ease all 0.5s;
+}
+
+@media only screen and (max-width: 1200px) {
+  .social-icons-container {
+    margin-left: calc(50% - 90px);
+  }
 }
