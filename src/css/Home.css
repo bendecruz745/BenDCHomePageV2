@@ -1,0 +1,39 @@
+.home-container {
+  background-color: #e6ccb2;
+  flex: 1;
+  display: flex;
+}
+
+.home-content-container {
+  background-color: #e6ccb2;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .home-ben-picture-container {
+  background-color: blue;
+  min-width: 300px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+} */
+
+.home-text-container {
+  background-color: blueviolet;
+  height: 570px;
+  width: 790px;
+  margin-right: 20%;
+  z-index: 2;
+}
+
+.ben-picture {
+  max-width: 100%;
+  height: 80%;
+  width: auto;
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+  z-index: 1;
+}

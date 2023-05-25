@@ -1,5 +1,28 @@
+@font-face {
+  font-family: IBM-Plex-Sans-Thai;
+  src: url(./fonts/IBMPlexSansThai-Regular.ttf);
+}
+
+@font-face {
+  font-family: IBM-Plex-Sans-Thai-Bold;
+  src: url(./fonts/IBMPlexSansThai-Bold.ttf);
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: IBM-Plex-Sans-Thai-Bold;
+  font-size: 40px;
+  color: #9c6644;
 }
 
 .App-logo {
