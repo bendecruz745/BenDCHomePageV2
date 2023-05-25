@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import menuIco from "../img/menuico.png";
 
 function NavBar() {
+  const handleNavBurger = () => {
+    console.log("lmao navburger");
+  };
   return (
     <div className="navbar-container">
       <div className="navbar-brand-container">
@@ -17,7 +20,23 @@ function NavBar() {
         <Link to="/About" className="navbar-link navbar-link-left-margin">
           About
         </Link>
-        <img src={menuIco} alt="" className="navbar-burger-menu" />
+        <img
+          src={menuIco}
+          alt=""
+          className="navbar-burger-menu"
+          onClick={handleNavBurger}
+        />
+        <div className="navbar-burger-links-container">
+          <Link to="/Projects" className="navbar-burger-link">
+            Projects
+          </Link>
+          <Link
+            to="/About"
+            className="navbar-burger-link navbar-link-left-margin"
+          >
+            About
+          </Link>
+        </div>
       </div>
     </div>
   );
