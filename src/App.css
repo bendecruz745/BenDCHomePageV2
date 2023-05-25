@@ -19,6 +19,10 @@
   flex-direction: column;
 }
 
+.text-bg {
+  background-color: #ede0d4;
+}
+
 h1 {
   font-family: IBM-Plex-Sans-Thai-Bold;
   font-size: 40px;

@@ -20,12 +20,13 @@
   display: flex;
   margin-right: 100px;
   width: 20%;
-  justify-content: space-around;
+  justify-content: end;
 }
 
 .navbar-link,
 .navbar-link-brand {
   text-decoration: none;
+  margin-left: 100px;
 }
 
 .navbar-link {
