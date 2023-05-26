@@ -1,10 +1,8 @@
 .projects-page-container {
   background-color: #e6ccb2;
-  display: flex;
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  border-top: 5px solid #e6ccb2;
   position: relative;
 }
 
@@ -18,7 +16,7 @@
   width: 90%;
   margin-left: 5%;
   margin-top: 10px;
-  margin-bottom: auto;
+  margin-bottom: 10px;
   border-radius: 40px 40px 0 0;
   display: flex;
   flex-direction: column;
@@ -66,4 +64,16 @@
 .project-card-title-container h1 {
   margin: 0;
   text-align: center;
+}
+
+.project-card-techused-container {
+  margin-top: 2.5%;
+}
+
+.project-card-techused-container h2 {
+  margin: 0;
+  font-family: IBM-Plex-Sans-Thai-Bold;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #9c6644;
 }

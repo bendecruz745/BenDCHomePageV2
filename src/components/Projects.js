@@ -6,7 +6,6 @@ import ProjectCards from "./ProjectCards";
 
 function Projects() {
   const projectList = projectData["Projects"];
-  console.log(projectList);
   return (
     <div className="projects-page-container">
       <div className="projects-window-container text-bg">
@@ -18,7 +17,7 @@ function Projects() {
             <ProjectCards projectInfo={data} key={index} />
           ))
         ) : (
-          <div>No data to display </div>
+          <div>No data to display</div>
         )}
       </div>
     </div>
