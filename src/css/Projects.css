@@ -30,12 +30,14 @@
   justify-content: center;
 }
 
-.projects-card-container {
+.project-card-container {
   background-color: #d7b18b;
   width: 95%;
   margin-left: 2.5%;
   margin-bottom: 2.5%;
   transition: ease all 0.5s;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-preview-container {
@@ -50,4 +52,18 @@
   margin-top: 2.5%;
   margin-left: 2.5%;
   display: block;
+}
+
+.project-card-main-container {
+  width: 95%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+}
+
+.project-card-title-container {
+}
+
+.project-card-title-container h1 {
+  margin: 0;
+  text-align: center;
 }
