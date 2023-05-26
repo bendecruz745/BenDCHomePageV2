@@ -4,7 +4,6 @@
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  align-items: center;
   border-top: 5px solid #e6ccb2;
   border-bottom: 5px solid #e6ccb2;
   position: relative;
@@ -21,6 +20,8 @@
 .home-text-container {
   max-width: 90%;
   margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
   display: flex;
   flex-direction: column;
   transition: ease all 0.5s;
