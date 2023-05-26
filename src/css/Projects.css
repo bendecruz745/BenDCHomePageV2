@@ -1,0 +1,53 @@
+.projects-page-container {
+  background-color: #e6ccb2;
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-top: 5px solid #e6ccb2;
+  position: relative;
+}
+
+.projects-window-title-text {
+  margin: 0;
+  padding: 10px 10px 5px 10px;
+}
+
+.projects-window-container {
+  max-width: 90%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  border-radius: 40px 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  transition: ease all 0.5s;
+}
+
+.projects-window-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-card-container {
+  background-color: #d7b18b;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
+  transition: ease all 0.5s;
+}
+
+.project-preview-container {
+  height: fit-content;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+}
+
+.project-preview-img {
+  width: 95%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  display: block;
+}

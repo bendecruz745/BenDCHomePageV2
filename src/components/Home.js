@@ -3,7 +3,7 @@ import Ben from "../img/selfienobg.png";
 
 function Home() {
   return (
-    <div className="home-container">
+    <div className="home-page-container">
       <div className="home-text-container">
         <div className="home-intro-text-container text-bg">
           <p className="home-intro-text">

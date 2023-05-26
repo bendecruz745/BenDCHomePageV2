@@ -1,0 +1,23 @@
+{
+  "Projects": [
+    {
+      "title": "BasicChatApp",
+      "techUsed": ["MongoDB", "Express", "React", "NodeJS"],
+      "body": "My first personal project utilizing a full tech stack. The main engine working here is the Node/Express server alongside the Socket.io library, establishing a WebSocket connection for users to be able to send/receive events. This was definitely a big learning experience for me, in regards to UI design (will be mocking one up on Figma beforehand next time), React component structuring (more Componentizing), figuring out the Socket.io library, Node/Express & MongoDB. Currently (24/05/2023) I am leaving it in a state I am not happy with, but I would rather start on the next project using what I have learned to make something better from the ground up. I will however revisit this in the future.",
+      "previewImageSrc": "../img/BasicChatAppPreview.jpeg"
+    },
+    {
+      "title": "FillerTest",
+      "techUsed": [
+        "Something1",
+        "Something2",
+        "Something3",
+        "Something4",
+        "Something5",
+        "Something6"
+      ],
+      "body": "Short filler text",
+      "previewImageSrc": "../img/FillerPreview.png"
+    }
+  ]
+}

@@ -129,8 +129,8 @@
 
 @media only screen and (max-width: 768px) {
   .navbar-content {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
