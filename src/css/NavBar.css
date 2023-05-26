@@ -106,6 +106,7 @@
 
 .navbar-link:hover {
   font-size: 40px;
+  font-weight: bold;
   transition: font-size 0.25s ease-out;
 }
 
