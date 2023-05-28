@@ -28,6 +28,9 @@ function ProjectCards({ projectInfo }) {
             })}
           </h2>
         </div>
+        <div className="project-card-main-text-container text-bg">
+          <p>{projectInfo["body"]}</p>
+        </div>
       </div>
     </div>
   );

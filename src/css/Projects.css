@@ -32,7 +32,7 @@
   background-color: #d7b18b;
   width: 95%;
   margin-left: 2.5%;
-  margin-bottom: 2.5%;
+  margin-bottom: 5px;
   transition: ease all 0.5s;
   display: flex;
   flex-direction: column;
@@ -42,19 +42,19 @@
   height: fit-content;
   width: 95%;
   margin-left: 2.5%;
-  margin-top: 2.5%;
+  margin-top: 5px;
 }
 
 .project-preview-img {
   width: 95%;
-  margin-top: 2.5%;
+  margin-top: 10px;
   margin-left: 2.5%;
   display: block;
 }
 
 .project-card-main-container {
   width: 95%;
-  margin-top: 2.5%;
+  margin-top: 5px;
   margin-left: 2.5%;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .project-card-techused-container {
-  margin-top: 2.5%;
+  margin-top: 5px;
 }
 
 .project-card-techused-container h2 {
@@ -75,5 +75,18 @@
   font-family: IBM-Plex-Sans-Thai-Bold;
   font-size: 1.7rem;
   text-align: center;
+  color: #9c6644;
+}
+
+.project-card-main-text-container {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.project-card-main-text-container p {
+  margin: 0;
+  padding-left: 5px;
+  font-family: IBM-Plex-Sans-Thai;
+  font-size: 1rem;
   color: #9c6644;
 }
