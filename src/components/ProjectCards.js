@@ -2,11 +2,11 @@ import basicChatAppPreviewSrc from "../img/BasicChatAppPreview.jpg";
 
 function ProjectCards({ projectInfo }) {
   const techUsed = projectInfo["techUsed"];
-  console.log(techUsed);
+  const testVar = projectInfo["title"];
   return (
     <div className="project-card-container">
       <img
-        src={basicChatAppPreviewSrc}
+        src={require(`../img/${testVar}Preview.jpg`)}
         alt="Basic Chat App"
         className="project-preview-img"
       />

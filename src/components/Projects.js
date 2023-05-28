@@ -1,11 +1,9 @@
 import "../css/Projects.css";
-
-import projectData from "../data/Projects.json";
-
 import ProjectCards from "./ProjectCards";
+import projectData from "../data/Projects.json";
+const projectList = projectData["Projects"];
 
 function Projects() {
-  const projectList = projectData["Projects"];
   return (
     <div className="projects-page-container">
       <div className="projects-window-container text-bg">

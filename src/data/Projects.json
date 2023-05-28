@@ -3,21 +3,12 @@
     {
       "title": "BasicChatApp",
       "techUsed": ["MongoDB", "Express", "React", "NodeJS"],
-      "body": "My first personal project utilizing a full tech stack. The main engine working here is the Node/Express server alongside the Socket.io library, establishing a WebSocket connection for users to be able to send/receive events. This was definitely a big learning experience for me, in regards to UI design (will be mocking one up on Figma beforehand next time), React component structuring (more Componentizing), figuring out the Socket.io library, Node/Express & MongoDB. Currently (24/05/2023) I am leaving it in a state I am not happy with, but I would rather start on the next project using what I have learned to make something better from the ground up. I will however revisit this in the future.",
-      "previewImageSrc": "../img/BasicChatAppPreview.jpeg"
+      "body": "My first personal project utilizing a full tech stack. The main engine working here is the Node/Express server alongside the Socket.io library, establishing a WebSocket connection for users to be able to send/receive events. This was definitely a big learning experience for me, in regards to UI design (will be mocking one up on Figma beforehand next time), React component structuring (more Componentizing), figuring out the Socket.io library, Node/Express & MongoDB. Currently (24/05/2023) I am leaving it in a state I am not happy with, but I would rather start on the next project using what I have learned to make something better from the ground up. I will however revisit this in the future."
     },
     {
-      "title": "FillerTest",
-      "techUsed": [
-        "Something1",
-        "Something2",
-        "Something3",
-        "Something4",
-        "Something5",
-        "Something6"
-      ],
-      "body": "Short filler text",
-      "previewImageSrc": "../img/FillerPreview.png"
+      "title": "Homepage",
+      "techUsed": ["React"],
+      "body": "I actually had a homepage before this one, however, it wasn't good enough for me to actually use. This is technically Version 2. The biggest challenge was media queries to account for screen width (If you are on desktop, try resizing the window's width!). Of course the biggest learning experience here is CSS, I didn't initially adopt the Mobile First Design and tried to bruteforce my way from a desktop resolution, hard lesson learned. Scrapped most of my CSS and started from scratch with a mobile resolution, worked out very nicely."
     }
   ]
 }
