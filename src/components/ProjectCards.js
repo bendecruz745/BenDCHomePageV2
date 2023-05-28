@@ -12,7 +12,9 @@ function ProjectCards({ projectInfo }) {
       />
       <div className="project-card-main-container">
         <div className="project-card-title-container text-bg">
-          <h1>{projectInfo["title"]}</h1>
+          <a href={projectInfo["link"]}>
+            <h1>{projectInfo["title"]}</h1>
+          </a>
         </div>
         <div className="project-card-techused-container text-bg">
           <h2>Created using:</h2>

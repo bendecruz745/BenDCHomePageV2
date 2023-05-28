@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .projects-page-container {
   background-color: #e6ccb2;
   flex: 1;
