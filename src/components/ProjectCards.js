@@ -5,12 +5,12 @@ function ProjectCards({ projectInfo }) {
   const testVar = projectInfo["title"];
   return (
     <div className="project-card-container">
-      <img
-        src={require(`../img/${testVar}Preview.jpg`)}
-        alt="Basic Chat App"
-        className="project-preview-img"
-      />
-      <div className="project-card-main-container">
+      <div className="test">
+        <img
+          src={require(`../img/${testVar}Preview.jpg`)}
+          alt="Basic Chat App"
+          className="project-preview-img"
+        />
         <div className="project-card-title-container text-bg">
           <a href={projectInfo["link"]}>
             <h1>{projectInfo["title"]}</h1>
@@ -30,7 +30,9 @@ function ProjectCards({ projectInfo }) {
             })}
           </h2>
         </div>
-        <div className="project-card-main-text-container text-bg">
+      </div>
+      <div className="project-card-main-container text-bg">
+        <div className="project-card-main-text-container">
           <p>{projectInfo["body"]}</p>
         </div>
       </div>
