@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
       <div className="main-content">
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/index.html" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />
       </div>
