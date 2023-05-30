@@ -73,8 +73,14 @@ a {
 .project-card-title-container h1 {
   font-size: 2.5rem;
   margin: 0;
-
   text-align: center;
+}
+
+.project-card-title-container:hover {
+  background-color: #ecd0b5;
+}
+.project-card-title-container:active {
+  background-color: #ebc29c;
 }
 
 .project-card-main-container {
