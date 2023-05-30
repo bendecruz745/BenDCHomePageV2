@@ -183,3 +183,9 @@ a {
     font-size: 1.3rem;
   }
 }
+
+@media (min-width: 1700px) {
+  .project-card-main-text-container p {
+    font-size: 1.5rem;
+  }
+}
