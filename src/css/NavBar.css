@@ -109,13 +109,13 @@
   transition: font-size 0.25s ease-out;
 }
 
-.navbar-link::after {
+.navbar-link:after {
   content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 4px;
-  bottom: 0;
+  top: 80px;
   left: 0;
   background-color: #9c6644;
   transform-origin: bottom;

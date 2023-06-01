@@ -18,9 +18,6 @@ html body,
   overflow: hidden;
 }
 
-.App {
-}
-
 .main-content {
   display: flex;
   flex-direction: column;
