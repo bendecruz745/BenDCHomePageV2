@@ -1,4 +1,3 @@
-import "../css/Footer.css";
 import linkedInIco from "../img/linkedinico.png";
 import githubIco from "../img/githubico.png";
 import mailIco from "../img/mailico.png";

@@ -97,6 +97,19 @@ b {
   display: none;
 }
 
+.social-icons-container {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 10px;
+}
+
+.social-icons-container svg {
+  height: 70px;
+  width: auto;
+}
+
 @media (max-width: 460px) {
   .home-intro-text {
     font-size: 2.6rem;
@@ -162,6 +175,11 @@ b {
   .home-body-text-title br {
     display: none;
   }
+
+  .social-icons-container {
+    width: 40%;
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 850px) {
@@ -213,6 +231,10 @@ b {
   .home-body-text-title,
   .home-body-text {
     text-align: start;
+  }
+
+  .social-icons-container {
+    width: 250px;
   }
 }
 

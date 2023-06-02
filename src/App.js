@@ -17,7 +17,6 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-        <Footer />
       </div>
     </div>
   );

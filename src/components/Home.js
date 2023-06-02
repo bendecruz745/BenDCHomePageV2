@@ -1,5 +1,12 @@
 import "../css/Home.css";
 import Ben from "../img/selfienobg.png";
+import linkedInIco from "../img/linkedinico.png";
+import githubIco from "../img/githubico.png";
+import mailIco from "../img/mailico.png";
+import React from "react";
+import { ReactComponent as LinkedInSVG } from "../img/linkedin.svg";
+import { ReactComponent as GitHubSVG } from "../img/github.svg";
+import { ReactComponent as MailSVG } from "../img/mail.svg";
 
 function Home() {
   return (
@@ -25,6 +32,17 @@ function Home() {
             convey my abilities accurately to you, and I hope that they are fit
             to the position you are looking to fill, or that I have applied for.
           </p>
+        </div>
+        <div className="social-icons-container">
+          <a href="https://www.linkedin.com/in/bendecruz/">
+            <LinkedInSVG />
+          </a>
+          <a href="https://github.com/bendecruz745/">
+            <GitHubSVG />
+          </a>
+          <a href="mailto:contact@bendecruz.com">
+            <MailSVG />
+          </a>
         </div>
       </div>
       <img src={Ben} alt="It is indeed me, Ben" className="ben-picture" />
